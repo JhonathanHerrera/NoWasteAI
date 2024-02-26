@@ -42,7 +42,7 @@ function App() {
 
   const handleCaptureImage = async () => {
     try {
-        const response = await fetch('http://localhost:5000/run-script1', {
+        const response = await fetch('http://localhost:5000/run-script', { //remove 1 from run-script, add back if error
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
